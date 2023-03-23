@@ -1,0 +1,21 @@
+{
+  "name": "http-status-dogs-trivia",
+  "version": "1.0.0",
+  "description": "A flash card trivia app to quiz users on their API status knowledge using HTTP Status Dogs images.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "http-server": "^14.1.1",
+    "nodemon": "^2.0.22",
+    "openai": "^3.2.1",
+    "path": "^0.12.7"
+  }
+}

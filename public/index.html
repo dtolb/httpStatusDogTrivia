@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTTP Status Dogs Trivia</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>HTTP Status Dogs Trivia</h1>
+    <div id="trivia-container">
+      <div id="status-image-container">
+        <img id="status-image" src="" alt="Status dog" />
+        <div id="correct-status-code"></div>
+      </div>
+      <form>
+        <fieldset>
+          <legend>Message</legend>
+          <div class="choice-container">
+            <input type="radio" name="message" id="choice1" />
+            <label for="choice1"></label>
+          </div>
+          <div class="choice-container">
+            <input type="radio" name="message" id="choice2" />
+            <label for="choice2"></label>
+          </div>
+          <div class="choice-container">
+            <input type="radio" name="message" id="choice3" />
+            <label for="choice3"></label>
+          </div>
+          <div class="choice-container">
+            <input type="radio" name="message" id="choice4" />
+            <label for="choice4"></label>
+          </div>
+        </fieldset>
+        <div>
+          <label for="description">Description:</label>
+          <textarea id="description" rows="4" cols="50"></textarea>
+        </div>
+        <button id="submit">Submit</button>
+        <!-- Inside the form element, after the Submit button -->
+        <button id="roll-again" type="button">Roll Again</button>
+
+      </form>
+      <div id="result"></div>
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
